@@ -1,44 +1,5 @@
 
-# ****************Previous while checking*****************************
 
-
-# import os
-# import requests
-# import pandas as pd
-# from dotenv import load_dotenv
-
-# load_dotenv()
-
-# headers = {
-#     "X-API-Key": os.getenv("OPENAQ_API_KEY")
-# }
-
-# sensor_id = 14935
-
-# url = f"https://api.openaq.org/v3/sensors/{sensor_id}/hours"
-
-# params = {
-#     "datetime_from": "2018-03-09T00:00:00Z",
-#     "datetime_to": "2022-10-31T23:59:59Z",
-#     "limit": 1000,"page":2
-# }
-
-# response = requests.get(
-#     url,
-#     headers=headers,
-#     params=params,
-#     timeout=60
-# )
-
-# data = response.json()
-
-# print("Page:", data["meta"]["page"])
-# print("Records:", len(data["results"]))
-# print("First record:", data["results"][0]["period"])
-
-
-
-# ************************Latest*************************888
 
 
 import os
