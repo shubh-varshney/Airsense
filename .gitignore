@@ -2,7 +2,9 @@
 .env
 __pycache__/
 *.pyc
-data/
 models/
 .ipynb_checkpoints/
 air/
+
+# Large original dataset
+data/raw/station_hour.csv
