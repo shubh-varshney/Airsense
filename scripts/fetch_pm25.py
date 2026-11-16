@@ -29,7 +29,9 @@ limit = 1000
 
 # Download historical measurements
 while True:
-
+# here it is the last time period is written . i repeatedly changed the time to download data ,
+# because it was raising error when i try to download it whole.
+# you can do that do from 2018 to 2022 GOOD LUCK!!!
     params = {
     "datetime_from": "2022-07-01T00:00:00Z",
     "datetime_to": "2022-12-31T23:59:59Z",
